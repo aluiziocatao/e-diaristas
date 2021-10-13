@@ -10,6 +10,20 @@ class Diarista extends Model
     use HasFactory;
 
     protected $table = "diaristas";
-    protected $fillable = ['nome_completo', 'cpf', 'email', 'telefone', 'logradouro', 'numero', 'bairro', 'complemento', 'cep', 'estado', 'codigo_ibge', 'foto_usuario'];
+    protected $fillable = [
+        'nome_completo', 
+        'cpf', 
+        'email', 
+        'telefone', 
+        'logradouro', 
+        'numero', 
+        'complemento', 
+        'cep',
+        'bairro', 
+        'cidade',
+        'estado', 
+        'codigo_ibge', 
+        'foto_usuario'
+    ];
 
 }
